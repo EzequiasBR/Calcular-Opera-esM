@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações Matemáticas</title>
+</head>
+<style>
+    div.fudo{
+     font: normal 9pt ariel;
+
+    }
+body{
+         background-color:rgb(32, 153, 169);
+         color: rgb(10, 4, 4);
+         font:normal 12pt ariel;
+}
+       label{
+   
+   color: rgb(146, 17, 17);
+   font:normal 20pt ariel;
+ 
+     }
+
+</style>
+<body>
+    <div class="fudo">
+     <h1>OPERAÇÕES MATEMÁTICAS.</h1>
+    </div>
+    <div>
+      <tr>
+          <td><label for="D"><input id="D" type="radio" name="radio" value="/" />/</label></td>
+          <td><label for="M"><input id="M" type="radio" name="radio" value="*" />*</label></td>
+          <td><label for="A"><input id="A" type="radio" name="radio" value="+" />+</label></td>
+          <td><label for="S"><input id="S" type="radio" name="radio" value="-" />-</label></td>
+      </tr><br>
+      <tr class="errorInput"> 
+       <td>Digite o primeiro Numero:</td><br>
+       <td><input  type="number" name="number" id="Num1"/></td>
+       <td><button id="button">Verificar.</button></td> <br>  
+       <td> Digite o segundo Numero:</td><br>
+       <td><input  type="number" name="number" id="Num2"/></td>
+      </tr>
+      <p id="text"></p>
+</div>
+    <script src="js/operações.js"></script>
+    <script src="js/limpacaracter.js"></script>
+</body>
+</html>
